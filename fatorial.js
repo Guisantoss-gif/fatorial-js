@@ -7,6 +7,7 @@ function fatorial(n) {
   for (let i = 2; i <= n; i++) {
     resultado *= i;
   }
+
   return resultado;
 }
 

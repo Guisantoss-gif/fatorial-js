@@ -8,6 +8,10 @@ test('fatorial de 5 deve ser 120', () => {
   expect(fatorial(5)).toBe(120);
 });
 
+test('fatorial de 10 deve ser 3628800', () => {
+  expect(fatorial(10)).toBe(3628800);
+});
+
 test('fatorial de número negativo deve lançar erro', () => {
   expect(() => fatorial(-1)).toThrow('O número deve ser não negativo.');
 });
